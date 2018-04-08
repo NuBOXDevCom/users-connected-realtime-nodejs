@@ -1,0 +1,17 @@
+{
+  "name": "users-connected-realtime-nodejs",
+  "version": "1.0.0",
+  "description": "List users connected in realtime (Used with https://github.com/NuBOXDevCom/rails-project) with NodeJS",
+  "repository": "https://github.com/NuBOXDevCom/users-connected-realtime-nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "NuBOXDevCom",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.2",
+    "socket.io": "^2.1",
+    "dotenv": "^5.0"
+  }
+}
